@@ -33,6 +33,7 @@
  unsigned isparam(char *);
  void print_usage(anf_stat *);
  void hwset(char *,char *);
+ void helloworld(anf_stat *); // declare new module
 
  char *strdup(char *);
 
@@ -47,5 +48,6 @@
  	// Add new switches here 
  	// first argument is the character of switch and second argument is the function which handles the switch's calls
  	SWITCH('h',print_usage)
+ 	SWITCH('H',helloworld) // attach it to a switch !
 };
  #endif

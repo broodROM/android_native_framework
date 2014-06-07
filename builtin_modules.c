@@ -33,4 +33,10 @@
  		,a->vec[0]
  		);
  #endif
+}
+
+// a simple hello world example
+
+ void helloworld(anf_stat *a) {
+ 	printf(" helloworld! \n");
  }
