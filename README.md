@@ -1,4 +1,4 @@
-android_native_framework
+Android Native Framework
 ========================
 
 A modular native framework for handling low level stuff in android
@@ -16,4 +16,6 @@ adding new swithces and their callback function is pretty simple :
     3- go down and add a new switch which uses your module as callback function
         // SWITCH('w',helloworld)
     4- done. now you can test your new function with "anf -w" and it will helloworld for you !
+    
+    here is an example of adding new module : https://github.com/alireza7991/android_native_framework/commit/c109da14634b406b53bef395d3069897fab11050
     
